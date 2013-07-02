@@ -1,0 +1,20 @@
+Log for qt3to4 on 周日 2月 3 21:37:29 2013. Number of log entries: 18
+In file /root/code/src/libInterestPts/applydetectors.cc at line 22 column 21: qfiledialog.h -> q3filedialog.h
+In file /root/code/src/libInterestPts/applydetectors.cc at line 263 column 30: QFileDialog -> Q3FileDialog
+In file /root/code/src/libInterestPts/applydetectors.cc at line 280 column 28: QFileDialog -> Q3FileDialog
+No changes made to file /root/code/src/libInterestPts/dogscalespace.cc
+No changes made to file /root/code/src/libInterestPts/ophalapimage.cc
+No changes made to file /root/code/src/libInterestPts/opharrisimage.cc
+In file /root/code/src/libInterestPts/opinterestimage.cc at line 22 column 21: qsortedlist.h -> q3sortedlist.h
+In file /root/code/src/libInterestPts/opinterestimage.cc at line 61 column 13: QSortedList -> Q3SortedList
+No changes made to file /root/code/src/libInterestPts/oplindebergimage.cc
+No changes made to file /root/code/src/libInterestPts/polcoe.cc
+No changes made to file /root/code/src/libInterestPts/applydetectors.hh
+No changes made to file /root/code/src/libInterestPts/dogscalespace.hh
+No changes made to file /root/code/src/libInterestPts/ophalapimage.hh
+No changes made to file /root/code/src/libInterestPts/opharrisimage.hh
+No changes made to file /root/code/src/libInterestPts/opinterestimage.hh
+No changes made to file /root/code/src/libInterestPts/oplindebergimage.hh
+No changes made to file /root/code/src/libInterestPts/polcoe.h
+In file libInterestPts.pro: Added entry QT +=  qt3support 
+

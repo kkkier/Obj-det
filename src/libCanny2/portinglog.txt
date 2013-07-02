@@ -1,0 +1,8 @@
+Log for qt3to4 on 周六 2月 2 17:50:21 2013. Number of log entries: 6
+No changes made to file /root/code/src/libCanny2/canny.cc
+No changes made to file /root/code/src/libCanny2/canny_edge.cc
+No changes made to file /root/code/src/libCanny2/pgm_io.cc
+No changes made to file /root/code/src/libCanny2/hysteresis.c
+No changes made to file /root/code/src/libCanny2/canny.hh
+In file libCanny2.pro: Added entry QT +=  qt3support 
+

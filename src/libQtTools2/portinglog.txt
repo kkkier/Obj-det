@@ -1,0 +1,73 @@
+Log for qt3to4 on 周六 2月 2 15:37:56 2013. Number of log entries: 1
+In file /root/code/src/libQtTools2/qtresizeimg.hh: Added the following include directives:
+	#include <QMouseEvent> 	#include <QPaintEvent> 
+
+Log for qt3to4 on 周六 2月 2 15:38:32 2013. Number of log entries: 7
+In file /root/code/src/libQtTools2/qtresizeimg.cc at line 26 column 18: qwmatrix.h -> qmatrix.h
+In file /root/code/src/libQtTools2/qtresizeimg.cc at line 208 column 12: QWMatrix -> QMatrix
+In file /root/code/src/libQtTools2/qtresizeimg.cc at line 522 column 36: LeftButton -> Qt::LeftButton
+In file /root/code/src/libQtTools2/qtresizeimg.cc at line 526 column 44: RightButton -> Qt::RightButton
+In file /root/code/src/libQtTools2/qtresizeimg.cc at line 557 column 35: LeftButton -> Qt::LeftButton
+In file /root/code/src/libQtTools2/qtresizeimg.cc at line 560 column 43: RightButton -> Qt::RightButton
+In file /root/code/src/libQtTools2/qtresizeimg.cc: Added the following include directives:
+	#include <QPaintEvent> 	#include <QMouseEvent> 
+
+Log for qt3to4 on 周六 2月 2 15:39:08 2013. Number of log entries: 55
+In file /root/code/src/libQtTools2/qtclusterview.cc at line 55 column 23: waitCursor -> Qt::waitCursor
+In file /root/code/src/libQtTools2/qtclusterview.cc at line 87 column 24: arrowCursor -> Qt::arrowCursor
+No changes made to file /root/code/src/libQtTools2/qtcoordlabel.cc
+In file /root/code/src/libQtTools2/qticonview.cc at line 32 column 13: QIconView -> Q3IconView
+In file /root/code/src/libQtTools2/qticonview.cc at line 35 column 26: QIconView -> Q3IconView
+In file /root/code/src/libQtTools2/qticonview.cc at line 39 column 60: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 40 column 56: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 44 column 60: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 51 column 19: LeftButton -> Qt::LeftButton
+In file /root/code/src/libQtTools2/qticonview.cc at line 55 column 20: RightButton -> Qt::RightButton
+In file /root/code/src/libQtTools2/qticonview.cc at line 59 column 18: MidButton -> Qt::MidButton
+In file /root/code/src/libQtTools2/qticonview.cc at line 85 column 23: waitCursor -> Qt::waitCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 102 column 24: arrowCursor -> Qt::arrowCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 123 column 23: waitCursor -> Qt::waitCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 140 column 24: arrowCursor -> Qt::arrowCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 161 column 23: waitCursor -> Qt::waitCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 178 column 24: arrowCursor -> Qt::arrowCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 199 column 23: waitCursor -> Qt::waitCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 216 column 24: arrowCursor -> Qt::arrowCursor
+In file /root/code/src/libQtTools2/qticonview.cc at line 229 column 15: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 229 column 44: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 240 column 15: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 240 column 44: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 250 column 15: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 250 column 44: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 261 column 15: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc at line 261 column 44: QIconViewItem -> Q3IconViewItem
+In file /root/code/src/libQtTools2/qticonview.cc: Added the following include directives:
+	#include <QPixmap> 
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 24 column 15: qhbox.h -> q3hbox.h
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 25 column 15: qvbox.h -> q3vbox.h
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 56 column 7: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 56 column 34: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 62 column 7: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 62 column 36: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 75 column 31: crossCursor -> Qt::crossCursor
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 80 column 7: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 80 column 34: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 83 column 7: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 83 column 31: QHBox -> Q3HBox
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 85 column 38: Horizontal -> Qt::Horizontal
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 96 column 13: QGridLayout -> Q3GridLayout
+In file /root/code/src/libQtTools2/qtimgbrowser.cc at line 96 column 37: QGridLayout -> Q3GridLayout
+In file /root/code/src/libQtTools2/qtimgbrowser.cc: Added the following include directives:
+	#include <Q3GridLayout> 
+No changes made to file /root/code/src/libQtTools2/qtresizeimg.cc
+No changes made to file /root/code/src/libQtTools2/qtclusterview.hh
+No changes made to file /root/code/src/libQtTools2/qtcoordlabel.h
+No changes made to file /root/code/src/libQtTools2/qtcoordlabel.hh
+In file /root/code/src/libQtTools2/qticonview.hh at line 29 column 19: qiconview.h -> q3iconview.h
+In file /root/code/src/libQtTools2/qticonview.hh at line 42 column 34: QIconView -> Q3IconView
+In file /root/code/src/libQtTools2/qticonview.hh at line 65 column 50: QIconViewItem -> Q3IconViewItem
+No changes made to file /root/code/src/libQtTools2/qtimgbrowser.hh
+No changes made to file /root/code/src/libQtTools2/qtmacros.hh
+No changes made to file /root/code/src/libQtTools2/qtresizeimg.h
+No changes made to file /root/code/src/libQtTools2/qtresizeimg.hh
+In file libQtTools2.pro: Added entry QT +=  qt3support 
+

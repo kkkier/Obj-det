@@ -1,0 +1,9 @@
+Log for qt3to4 on 周六 2月 2 17:12:45 2013. Number of log entries: 7
+No changes made to file /root/code/src/libGrayImage2/grayimage.cc
+No changes made to file /root/code/src/libGrayImage2/opgrayimage.cc
+In file /root/code/src/libGrayImage2/grayimage.hh at line 52 column 32: red -> Qt::red
+In file /root/code/src/libGrayImage2/grayimage.hh at line 53 column 20: green -> Qt::green
+In file /root/code/src/libGrayImage2/grayimage.hh at line 54 column 19: blue -> Qt::blue
+No changes made to file /root/code/src/libGrayImage2/opgrayimage.hh
+In file libGrayImage.pro: Added entry QT +=  qt3support 
+

@@ -1,0 +1,17 @@
+CC=g++
+CFLAGS=-c -Wall
+LDFLAGS=
+SOURCES=siftdetector.cc
+OBJECTS=$(SOURCES:.cc=.o)
+OUTPUT=
+
+all: $(SOURCES) $(OUTPUT)
+
+$(OUTPUT): $(OBJECTS)
+	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+
+.cc.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm -f *.o $(OUTPUT)

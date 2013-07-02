@@ -1,0 +1,6 @@
+Log for qt3to4 on 周六 2月 2 17:48:55 2013. Number of log entries: 4
+No changes made to file /root/code/src/libGaussDeriv2/fastgauss.cc
+No changes made to file /root/code/src/libGaussDeriv2/gaussderiv.cc
+No changes made to file /root/code/src/libGaussDeriv2/gaussderiv.hh
+In file libGaussDeriv2.pro: Added entry QT +=  qt3support 
+

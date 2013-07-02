@@ -1,0 +1,15 @@
+Log for qt3to4 on 周日 2月 3 23:09:15 2013. Number of log entries: 6
+No changes made to file /root/code/src/libHistogram2/histogram.cc
+In file /root/code/src/libHistogram2/visualhistogram.cc at line 28 column 21: qpointarray.h -> q3pointarray.h
+In file /root/code/src/libHistogram2/visualhistogram.cc at line 355 column 13: QPointArray -> Q3PointArray
+No changes made to file /root/code/src/libHistogram2/histogram.hh
+No changes made to file /root/code/src/libHistogram2/visualhistogram.hh
+In file libHistogram.pro: Added entry QT +=  qt3support 
+
+Log for qt3to4 on 周日 2月 3 23:11:59 2013. Number of log entries: 5
+No changes made to file /root/code/src/libHistogram2/histogram.cc
+No changes made to file /root/code/src/libHistogram2/visualhistogram.cc
+No changes made to file /root/code/src/libHistogram2/histogram.hh
+No changes made to file /root/code/src/libHistogram2/visualhistogram.hh
+In file libHistogram.pro: Added entry QT +=  
+

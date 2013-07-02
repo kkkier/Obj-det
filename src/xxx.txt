@@ -1,0 +1,1369 @@
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+hsiimage.cc: In member function ‘HSIPixel::operator RGBPixel() const’:
+hsiimage.cc:34: 警告：此函数中的‘r’在使用前可能未初始化
+hsiimage.cc:34: 警告：此函数中的‘g’在使用前可能未初始化
+hsiimage.cc:34: 警告：此函数中的‘b’在使用前可能未初始化
+cp：是否覆盖"/root/code/include/grayimage.hh"？ rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+fastgauss.cc: In function ‘void magnitude_x_y(const GrayImage&, const GrayImage&, GrayImage&)’:
+fastgauss.cc:494: 警告：未使用的变量‘pos’
+fastgauss.cc: In function ‘void magnitude_x_y2(const GrayImage&, const GrayImage&, GrayImage&)’:
+fastgauss.cc:529: 警告：未使用的变量‘pos’
+fastgauss.cc: In function ‘void radian_direction(const GrayImage&, const GrayImage&, GrayImage&, int, int)’:
+fastgauss.cc:573: 警告：未使用的变量‘pos’
+fastgauss.cc:574: 警告：未使用的变量‘dirim’
+gaussderiv.cc: In function ‘bool ApplyFilter(int, int, double, const GrayImage&, GrayImage&)’:
+gaussderiv.cc:104: 警告：未使用的变量‘idx’
+gaussderiv.cc:104: 警告：未使用的变量‘idxp’
+gaussderiv.cc:104: 警告：未使用的变量‘idxm’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+canny.cc: In function ‘void canny(const GrayImage&, float, float, float, GrayImage&)’:
+canny.cc:76: 警告：未使用的变量‘fpdir’
+canny.cc:77: 警告：未使用的变量‘nms’
+canny.cc:78: 警告：未使用的变量‘r’
+canny.cc:78: 警告：未使用的变量‘c’
+canny.cc:78: 警告：未使用的变量‘pos’
+canny.cc:79: 警告：未使用的变量‘dir_radians’
+canny.cc: In function ‘void canny(const GrayImage&, float, float, float, GrayImage&, GrayImage&)’:
+canny.cc:132: 警告：未使用的变量‘fpdir’
+canny.cc:133: 警告：未使用的变量‘nms’
+canny.cc:134: 警告：未使用的变量‘r’
+canny.cc:134: 警告：未使用的变量‘c’
+canny.cc:134: 警告：未使用的变量‘pos’
+canny.cc:135: 警告：未使用的变量‘dir_radians’
+canny.cc: In function ‘void canny(const GrayImage&, float, float, float, GrayImage&, GrayImage&, GrayImage&)’:
+canny.cc:198: 警告：未使用的变量‘fpdir’
+canny.cc:199: 警告：未使用的变量‘nms’
+canny.cc:200: 警告：未使用的变量‘r’
+canny.cc:200: 警告：未使用的变量‘c’
+canny.cc:200: 警告：未使用的变量‘pos’
+canny.cc:201: 警告：未使用的变量‘dir_radians’
+canny.cc: In function ‘void canny(const GrayImage&, const GrayImage&, float, float, GrayImage&)’:
+canny.cc:264: 警告：未使用的变量‘fpdir’
+canny.cc:265: 警告：未使用的变量‘nms’
+canny.cc:266: 警告：未使用的变量‘r’
+canny.cc:266: 警告：未使用的变量‘c’
+canny.cc:266: 警告：未使用的变量‘pos’
+canny.cc:267: 警告：未使用的变量‘dir_radians’
+canny.cc: In function ‘void canny(const GrayImage&, float, float, float, int, GrayImage&)’:
+canny.cc:313: 警告：未使用的变量‘nms’
+canny.cc:314: 警告：未使用的变量‘r’
+canny.cc:314: 警告：未使用的变量‘c’
+canny.cc:314: 警告：未使用的变量‘pos’
+canny.cc:315: 警告：未使用的变量‘dir_radians’
+canny.cc: At global scope:
+canny.cc:310: 警告：未使用的参数‘sigma’
+canny.cc: In function ‘void apply_hysteresis(const GrayImage&, const GrayImage&, float, float, GrayImage&)’:
+canny.cc:355: 警告：未使用的变量‘lowcount’
+canny.cc:356: 警告：未使用的变量‘i’
+canny.cc:356: 警告：未使用的变量‘rr’
+canny.cc:356: 警告：未使用的变量‘cc’
+canny.cc:357: 警告：未使用的变量‘sumpix’
+canny.cc: In function ‘void apply_hysteresis(const GrayImage&, unsigned char*, float, float, GrayImage&)’:
+canny.cc:488: 警告：未使用的变量‘lowcount’
+canny.cc:489: 警告：未使用的变量‘i’
+canny.cc:489: 警告：未使用的变量‘rr’
+canny.cc:489: 警告：未使用的变量‘cc’
+canny.cc:490: 警告：未使用的变量‘sumpix’
+canny.cc: In function ‘void follow_edges(GrayImage&, const GrayImage&, int, int, short int)’:
+canny.cc:623: 警告：未使用的变量‘tempmagptr’
+canny.cc:624: 警告：未使用的变量‘tempmapptr’
+canny.cc:626: 警告：未使用的变量‘thethresh’
+canny.cc: In function ‘void non_max_supp(const GrayImage&, const GrayImage&, const GrayImage&, GrayImage&)’:
+canny.cc:665: 警告：未使用的变量‘count’
+canny.cc: In function ‘void non_max_supp(const GrayImage&, int, GrayImage&)’:
+canny.cc:932: 警告：未使用的变量‘count’
+canny.cc: In function ‘void canny(unsigned char*, int, int, float, float, float, unsigned char**)’:
+canny.cc:1413: 警告：未使用的变量‘fpdir’
+canny.cc:1419: 警告：未使用的变量‘r’
+canny.cc:1419: 警告：未使用的变量‘c’
+canny.cc:1419: 警告：未使用的变量‘pos’
+canny.cc: In function ‘void canny(unsigned char*, int, int, float, float, float, unsigned char**, float**)’:
+canny.cc:1485: 警告：未使用的变量‘fpdir’
+canny.cc:1491: 警告：未使用的变量‘r’
+canny.cc:1491: 警告：未使用的变量‘c’
+canny.cc:1491: 警告：未使用的变量‘pos’
+canny.cc: In function ‘void follow_edges(unsigned char*, short int*, short int, int)’:
+canny.cc:1563: 警告：未使用的变量‘thethresh’
+canny.cc: In function ‘void apply_hysteresis(short int*, unsigned char*, int, int, float, float, unsigned char*)’:
+canny.cc:1592: 警告：未使用的变量‘lowcount’
+canny.cc:1593: 警告：未使用的变量‘i’
+canny.cc:1593: 警告：未使用的变量‘rr’
+canny.cc:1593: 警告：未使用的变量‘cc’
+canny.cc:1594: 警告：未使用的变量‘sumpix’
+canny.cc:1594: 警告：此函数中的‘maximum_mag’在使用前可能未初始化
+canny.cc: In function ‘void non_max_supp(short int*, short int*, short int*, int, int, unsigned char*)’:
+canny.cc:1723: 警告：此函数中的‘gx’在使用前可能未初始化
+canny.cc:1723: 警告：此函数中的‘gy’在使用前可能未初始化
+canny.cc:1724: 警告：此函数中的‘xperp’在使用前可能未初始化
+canny.cc:1724: 警告：此函数中的‘yperp’在使用前可能未初始化
+canny.cc: In function ‘void canny(unsigned char*, int, int, float, float, float, unsigned char**, float**)’:
+canny.cc:1541: 警告：此函数中的‘smoothedim’在使用前可能未初始化
+canny.cc: In function ‘void canny(unsigned char*, int, int, float, float, float, unsigned char**)’:
+canny.cc:1467: 警告：此函数中的‘smoothedim’在使用前可能未初始化
+canny.cc: In function ‘void non_max_supp(const GrayImage&, const GrayImage&, const GrayImage&, unsigned char*)’:
+canny.cc:1156: 警告：此函数中的‘gx’在使用前可能未初始化
+canny.cc:1156: 警告：此函数中的‘gy’在使用前可能未初始化
+canny.cc:1158: 警告：此函数中的‘xperp’在使用前可能未初始化
+canny.cc:1158: 警告：此函数中的‘yperp’在使用前可能未初始化
+canny.cc: In function ‘void apply_hysteresis(const GrayImage&, const GrayImage&, float, float, GrayImage&)’:
+canny.cc:357: 警告：此函数中的‘maximum_mag’在使用前可能未初始化
+canny.cc: In function ‘void apply_hysteresis(const GrayImage&, unsigned char*, float, float, GrayImage&)’:
+canny.cc:490: 警告：此函数中的‘maximum_mag’在使用前可能未初始化
+canny.cc: In function ‘void non_max_supp(const GrayImage&, int, GrayImage&)’:
+canny.cc:934: 警告：此函数中的‘gx’在使用前可能未初始化
+canny.cc:934: 警告：此函数中的‘gy’在使用前可能未初始化
+canny.cc:935: 警告：此函数中的‘xperp’在使用前可能未初始化
+canny.cc:935: 警告：此函数中的‘yperp’在使用前可能未初始化
+canny.cc: In function ‘void non_max_supp(const GrayImage&, const GrayImage&, const GrayImage&, GrayImage&)’:
+canny.cc:670: 警告：此函数中的‘gx’在使用前可能未初始化
+canny.cc:670: 警告：此函数中的‘gy’在使用前可能未初始化
+canny.cc:672: 警告：此函数中的‘xperp’在使用前可能未初始化
+canny.cc:672: 警告：此函数中的‘yperp’在使用前可能未初始化
+canny_edge.cc:64: 警告：ISO C++ 不允许声明无类型的‘main’
+canny_edge.cc: In function ‘int main(int, char**)’:
+canny_edge.cc:140: 警告：不建议使用从字符串常量到‘char*’的转换
+canny_edge.cc: In function ‘void canny(unsigned char*, int, int, float, float, float, unsigned char**, char*)’:
+canny_edge.cc:161: 警告：未使用的变量‘r’
+canny_edge.cc:161: 警告：未使用的变量‘c’
+canny_edge.cc:161: 警告：未使用的变量‘pos’
+pgm_io.cc: In function ‘int read_pgm_image(char*, unsigned char**, int*, int*)’:
+pgm_io.cc:62: 警告：在有符号和无符号整数表达式间比较
+pgm_io.cc: In function ‘int write_pgm_image(char*, unsigned char*, int, int, char*, int)’:
+pgm_io.cc:109: 警告：在有符号和无符号整数表达式间比较
+hysteresis.c: 在函数‘follow_edges’中:
+hysteresis.c:31: 警告：未使用的变量‘thethresh’
+hysteresis.c: 在函数‘apply_hysteresis’中:
+hysteresis.c:60: 警告：未使用的变量‘sumpix’
+hysteresis.c:59: 警告：未使用的变量‘cc’
+hysteresis.c:59: 警告：未使用的变量‘rr’
+hysteresis.c:59: 警告：未使用的变量‘i’
+hysteresis.c:58: 警告：未使用的变量‘lowcount’
+hysteresis.c:60: 警告：此函数中的‘maximum_mag’在使用前可能未初始化
+hysteresis.c: 在函数‘non_max_supp’中:
+hysteresis.c:169: 警告：此函数中的‘gx’在使用前可能未初始化
+hysteresis.c:169: 警告：此函数中的‘gy’在使用前可能未初始化
+hysteresis.c:170: 警告：此函数中的‘xperp’在使用前可能未初始化
+hysteresis.c:170: 警告：此函数中的‘yperp’在使用前可能未初始化
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from opgrayimage.cc:29:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+opgrayimage.cc: In member function ‘OpGrayImage OpGrayImage::opConnectedComponents(int, int) const’:
+opgrayimage.cc:994: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+opgrayimage.cc:1009: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from oprgbimage.cc:29:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+In file included from ophsiimage.cc:26:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+ophsiimage.cc: At global scope:
+ophsiimage.cc:62: 警告：未使用的参数‘w’
+ophsiimage.cc:62: 警告：未使用的参数‘h’
+ophsiimage.cc:78: 警告：未使用的参数‘w’
+ophsiimage.cc:78: 警告：未使用的参数‘h’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from scalespacedata.hh:29,
+                 from scalespacedata.cc:22:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from scalespace.hh:28,
+                 from scalespace.cc:24:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from scalespacedata.hh:29,
+                 from pyramidscalespace.hh:25,
+                 from pyramidscalespace.cc:24:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from applydetectors.cc:24:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+applydetectors.cc: In function ‘bool processImages(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, InterestPtDetector, double, double, double, double, int, int, double, double)’:
+applydetectors.cc:39: 警告：在有符号和无符号整数表达式间比较
+applydetectors.cc:53: 警告：在有符号和无符号整数表达式间比较
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from dogscalespace.hh:21,
+                 from dogscalespace.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from /root/code/include/scalespace.hh:28,
+                 from ophalapimage.cc:40:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from /root/code/include/scalespace.hh:28,
+                 from opharrisimage.cc:28:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from opinterestimage.hh:29,
+                 from opinterestimage.cc:28:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from /root/code/include/scalespace.hh:28,
+                 from oplindebergimage.cc:24:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+polcoe.cc: In function ‘float* fvector(long int, long int)’:
+polcoe.cc:22: 警告：不建议使用从字符串常量到‘char*’的转换
+polcoe.cc: At global scope:
+polcoe.cc:26: 警告：未使用的参数‘nh’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+polcoe.cc: In function ‘float* fvector(long int, long int)’:
+polcoe.cc:22: 警告：不建议使用从字符串常量到‘char*’的转换
+polcoe.cc: At global scope:
+polcoe.cc:26: 警告：未使用的参数‘nh’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from pyramiddata.hh:25,
+                 from pyramiddata.cc:26:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+pyramiddata.cc: In member function ‘int PyramidData::getMaximumOverScales(int, int) const’:
+pyramiddata.cc:294: 警告：未使用的变量‘xp’
+pyramiddata.cc:294: 警告：未使用的变量‘yp’
+pyramiddata.cc: In member function ‘float PyramidData::interpolatePixel(int, int, int) const’:
+pyramiddata.cc:397: 警告：未使用的变量‘Tz’
+pyramiddata.cc: In member function ‘void PyramidData::convertToKartesian(int, int, int, int&, int&) const’:
+pyramiddata.cc:485: 警告：建议在‘<<’的操作数中出现的‘-’前后加上括号
+pyramiddata.cc: In member function ‘int PyramidData::getMaximumOverScales(int, int) const’:
+pyramiddata.cc:295: 警告：此函数中的‘next’在使用前可能未初始化
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from pyramiddata.hh:25,
+                 from gausspyramid.hh:21,
+                 from gausspyramid.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from pyramiddata.hh:25,
+                 from laplacepyramid.hh:21,
+                 from laplacepyramid.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+laplacepyramid.cc: In copy constructor ‘LaplacePyramid::LaplacePyramid(const LaplacePyramid&)’:
+laplacepyramid.cc:42: 警告：基类‘class GaussPyramid’应该在复制构造函数中显式地初始化
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+chisquare.cc: In function ‘void powerdiv(double*, double*, int, int, double, double, double, double*, double*, double*)’:
+chisquare.cc:289: 警告：未使用的变量‘temp’
+gamma.cc: In function ‘double gammq(double, double)’:
+gamma.cc:48: 警告：不建议使用从字符串常量到‘char*’的转换
+gamma.cc: In function ‘void gser(double*, double, double, double*)’:
+gamma.cc:78: 警告：不建议使用从字符串常量到‘char*’的转换
+gamma.cc:96: 警告：不建议使用从字符串常量到‘char*’的转换
+gamma.cc: In function ‘void gcf(double*, double, double, double*)’:
+gamma.cc:133: 警告：不建议使用从字符串常量到‘char*’的转换
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+nrutil.h:4: 警告：‘sqrarg’定义后未使用
+nrutil.h:7: 警告：‘dsqrarg’定义后未使用
+nrutil.h:10: 警告：‘dmaxarg1’定义后未使用
+nrutil.h:10: 警告：‘dmaxarg2’定义后未使用
+nrutil.h:14: 警告：‘dminarg1’定义后未使用
+nrutil.h:14: 警告：‘dminarg2’定义后未使用
+nrutil.h:18: 警告：‘maxarg1’定义后未使用
+nrutil.h:18: 警告：‘maxarg2’定义后未使用
+nrutil.h:22: 警告：‘minarg1’定义后未使用
+nrutil.h:22: 警告：‘minarg2’定义后未使用
+nrutil.h:26: 警告：‘lmaxarg1’定义后未使用
+nrutil.h:26: 警告：‘lmaxarg2’定义后未使用
+nrutil.h:30: 警告：‘lminarg1’定义后未使用
+nrutil.h:30: 警告：‘lminarg2’定义后未使用
+nrutil.h:34: 警告：‘imaxarg1’定义后未使用
+nrutil.h:34: 警告：‘imaxarg2’定义后未使用
+nrutil.h:38: 警告：‘iminarg1’定义后未使用
+nrutil.h:38: 警告：‘iminarg2’定义后未使用
+ludcmp.c: 在函数‘ludcmp’中:
+ludcmp.c:8: 警告：此函数中的‘imax’在使用前可能未初始化
+nrutil.c: 在函数‘submatrix’中:
+nrutil.c:141: 警告：未使用的参数‘oldch’
+nrutil.c: 在函数‘free_vector’中:
+nrutil.c:218: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_ivector’中:
+nrutil.c:224: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_cvector’中:
+nrutil.c:230: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_lvector’中:
+nrutil.c:236: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_dvector’中:
+nrutil.c:242: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_matrix’中:
+nrutil.c:248: 警告：未使用的参数‘nrh’
+nrutil.c:248: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_dmatrix’中:
+nrutil.c:255: 警告：未使用的参数‘nrh’
+nrutil.c:255: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_imatrix’中:
+nrutil.c:262: 警告：未使用的参数‘nrh’
+nrutil.c:262: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_submatrix’中:
+nrutil.c:269: 警告：未使用的参数‘nrh’
+nrutil.c:269: 警告：未使用的参数‘ncl’
+nrutil.c:269: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_convert_matrix’中:
+nrutil.c:275: 警告：未使用的参数‘nrh’
+nrutil.c:275: 警告：未使用的参数‘ncl’
+nrutil.c:275: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_f3tensor’中:
+nrutil.c:281: 警告：未使用的参数‘nrh’
+nrutil.c:281: 警告：未使用的参数‘nch’
+nrutil.c:282: 警告：未使用的参数‘ndh’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from histogram.cc:29:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+histogram.cc: In constructor ‘Histogram::Histogram(int, std::vector<int, std::allocator<int> >, std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >)’:
+histogram.cc:120: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:121: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:122: 警告：在有符号和无符号整数表达式间比较
+histogram.hh: In copy constructor ‘Histogram::Histogram(const Histogram&)’:
+histogram.hh:208: 警告：‘Histogram::m_vBins’将随后被初始化
+histogram.hh:204: 警告：‘std::vector<bool, std::allocator<bool> > Histogram::m_vDimDefined’
+histogram.cc:142: 警告：  当在这里初始化时
+histogram.cc: In member function ‘void Histogram::setData(std::vector<float, std::allocator<float> >)’:
+histogram.cc:346: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘void Histogram::setData(std::vector<double, std::allocator<double> >)’:
+histogram.cc:361: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘void Histogram::createHistogram(std::vector<GrayImage, std::allocator<GrayImage> >&, int, int, int, int)’:
+histogram.cc:524: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘void Histogram::createHistogram(std::vector<GrayImage, std::allocator<GrayImage> >&, int, int, float)’:
+histogram.cc:564: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘void Histogram::insertValue(std::vector<float, std::allocator<float> >)’:
+histogram.cc:685: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘void Histogram::incrementValue(std::vector<float, std::allocator<float> >, float)’:
+histogram.cc:756: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘void Histogram::normalizeBins(std::vector<float, std::allocator<float> >)’:
+histogram.cc:1070: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘float Histogram::compChi2Measure(Histogram&, bool)’:
+histogram.cc:1414: 警告：未使用的变量‘prob’
+histogram.cc: In member function ‘int Histogram::idx(std::vector<int, std::allocator<int> >)’:
+histogram.cc:1548: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:1552: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In member function ‘std::vector<int, std::allocator<int> > Histogram::getNextIndex(const std::vector<int, std::allocator<int> >&, bool&)’:
+histogram.cc:1573: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In function ‘bool saveHistogramList(std::string, std::vector<Histogram, std::allocator<Histogram> >&, bool, bool)’:
+histogram.cc:1616: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:1625: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:1631: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:1672: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:1691: 警告：在有符号和无符号整数表达式间比较
+histogram.cc: In function ‘bool loadHistogramList(std::string, std::vector<Histogram, std::allocator<Histogram> >&, bool)’:
+histogram.cc:1720: 警告：在有符号和无符号整数表达式间比较
+histogram.cc:1731: 警告：在有符号和无符号整数表达式间比较
+In file included from visualhistogram.cc:25:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+hpr.c: 在函数‘hpr’中:
+hpr.c:69: 警告：此函数中的‘p’在使用前可能未初始化
+hpr.c:69: 警告：此函数中的‘q’在使用前可能未初始化
+hpr.c:69: 警告：此函数中的‘r’在使用前可能未初始化
+matrix.c: 在函数‘matrix_add_ptr’中:
+matrix.c:95: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+matrix.c: 在函数‘matrix_getline’中:
+matrix.c:373: 警告：未使用的变量‘mem_v’
+matrix.c:373: 警告：未使用的变量‘mem_m’
+matrix.c: 在函数‘matrix_setline’中:
+matrix.c:756: 警告：未使用的变量‘mem_v’
+matrix.c:756: 警告：未使用的变量‘mem_m’
+matrix.c:755: 警告：未使用的变量‘size’
+matrix.c: 在文件层：
+matrix.c:86: 警告：‘matrix_add_ptr’定义后未使用
+matrix.c:211: 警告：‘matrix_del_ptr’定义后未使用
+solve_lin_system.c: 在函数‘matrix_solve_lin_system’中:
+solve_lin_system.c:119: 警告：未使用的变量‘j’
+solve_lin_system.c:119: 警告：未使用的变量‘i’
+cp：是否覆盖"/root/code/include/clemdiag.hh"？ cp：是否覆盖"/root/code/include/clemfull.hh"？ cp：是否覆盖"/root/code/include/clem.hh"？ cp：是否覆盖"/root/code/include/clemsigma.hh"？ cp：是否覆盖"/root/code/include/clfastrnncagglo2.hh"？ cp：是否覆盖"/root/code/include/clfastrnncagglo.hh"？ cp：是否覆盖"/root/code/include/clkmeans.hh"？ cp：是否覆盖"/root/code/include/clpostagglo.hh"？ cp：是否覆盖"/root/code/include/clrnncagglo.hh"？ cp：是否覆盖"/root/code/include/clsimilarity.hh"？ cp：是否覆盖"/root/code/include/clstep.hh"？ cp：是否覆盖"/root/code/include/cluster.hh"？ cp：是否覆盖"/root/code/include/resources.hh"？ rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+balltree.cc: In member function ‘void BallTree::buildFromClusterTrace(const std::vector<FeatureVector, std::allocator<FeatureVector> >&, const std::vector<ClStep, std::allocator<ClStep> >&, float, float, int, float, bool)’:
+balltree.cc:1425: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+balltree.cc: In member function ‘void BallTree::findNeighbors(BallTreeNode*, const FeatureVector&, float&, float&, std::vector<unsigned int, std::allocator<unsigned int> >&)’:
+balltree.cc:2389: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+balltree.cc: In member function ‘void BallTree::findNeighborsPenalty(BallTreeNode*, const FeatureVector&, float&, float&, std::vector<unsigned int, std::allocator<unsigned int> >&)’:
+balltree.cc:2526: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+balltree.cc: In member function ‘bool BallTree::checkTree()’:
+balltree.cc:2722: 警告：建议在用作真值的赋值语句前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+clemdiag.cc:47: 警告：未使用的参数‘idx’
+clkmeans.cc: In member function ‘virtual void ClKMeans::doUpdateStep()’:
+clkmeans.cc:127: 警告：未使用的变量‘max_dist’
+In file included from clpostagglo.cc:36:
+clpostagglo.hh:59: 警告：未使用的参数‘eps’
+clpostagglo.hh:59: 警告：未使用的参数‘max_iter’
+clpostagglo.hh:59: 警告：未使用的参数‘bVerbose’
+In file included from clrnncagglo.cc:58:
+clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+In file included from clfastrnncagglo.cc:61:
+clfastrnncagglo.hh:97: 警告：未使用的参数‘eps’
+clfastrnncagglo.hh:97: 警告：未使用的参数‘max_iter’
+clfastrnncagglo.hh:97: 警告：未使用的参数‘bVerbose’
+In file included from clfastrnncagglo2.cc:61:
+clfastrnncagglo2.hh:97: 警告：未使用的参数‘eps’
+clfastrnncagglo2.hh:97: 警告：未使用的参数‘max_iter’
+clfastrnncagglo2.hh:97: 警告：未使用的参数‘bVerbose’
+clfastrnncagglo2.cc: In member function ‘bool ClFastRNNCAgglo2::doClusterSteps(double, bool)’:
+clfastrnncagglo2.cc:339: 警告：建议在用作真值的赋值语句前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+pca.cc: In function ‘void calcEigenVectors(const std::vector<FeatureVector, std::allocator<FeatureVector> >&, Matrix**, Vector**, Vector**)’:
+pca.cc:44: 警告：未使用的变量‘tmp1’
+pca.cc:44: 警告：未使用的变量‘tmp2’
+pca.cc: In function ‘void calcEigenVectors(const std::vector<FeatureVector, std::allocator<FeatureVector> >&, std::vector<FeatureVector, std::allocator<FeatureVector> >&, std::vector<float, std::allocator<float> >&, FeatureVector&)’:
+pca.cc:268: 警告：未使用的变量‘dimImages’
+pca.cc:188: 警告：未使用的变量‘tmp1’
+pca.cc:188: 警告：未使用的变量‘tmp2’
+pca.cc: In function ‘void applyEigenVectors(const std::vector<FeatureVector, std::allocator<FeatureVector> >&, const FeatureVector&, const FeatureVector&, FeatureVector&)’:
+pca.cc:423: 警告：在有符号和无符号整数表达式间比较
+pca.cc: In function ‘double calcRecoError(const std::vector<FeatureVector, std::allocator<FeatureVector> >&, const FeatureVector&, const FeatureVector&, const FeatureVector&)’:
+pca.cc:478: 警告：在有符号和无符号整数表达式间比较
+pca.cc:485: 警告：在有符号和无符号整数表达式间比较
+pca.cc: In function ‘bool vec_2_feature(const Vector*, FeatureVector&)’:
+pca.cc:559: 警告：未使用的变量‘help’
+pca.cc:560: 警告：未使用的变量‘x’
+pca.cc:560: 警告：未使用的变量‘y’
+pca.cc:560: 警告：未使用的变量‘n1’
+pca.cc:560: 警告：未使用的变量‘n2’
+pca.cc:561: 警告：未使用的变量‘min_val’
+pca.cc:561: 警告：未使用的变量‘max_val’
+pca.cc:561: 警告：未使用的变量‘fac’
+pca.cc: In function ‘bool feature_calc_avg(const std::vector<FeatureVector, std::allocator<FeatureVector> >&, FeatureVector&)’:
+pca.cc:585: 警告：在有符号和无符号整数表达式间比较
+pca.cc:593: 警告：在有符号和无符号整数表达式间比较
+pca.cc:582: 警告：未使用的变量‘x’
+pca.cc:582: 警告：未使用的变量‘y’
+pca.cc:583: 警告：未使用的变量‘help’
+pca.cc: In function ‘bool vecfeature_2_mat(Matrix*, const std::vector<FeatureVector, std::allocator<FeatureVector> >&)’:
+pca.cc:618: 警告：在有符号和无符号整数表达式间比较
+pca.cc:623: 警告：在有符号和无符号整数表达式间比较
+pca.cc: In function ‘bool mat_2_vecfeature(const Matrix*, std::vector<FeatureVector, std::allocator<FeatureVector> >&)’:
+pca.cc:643: 警告：未使用的变量‘help’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+gauss.cc: In function ‘double evaluateUnnormalizedGauss(int, double, double)’:
+gauss.cc:26: 警告：未使用的变量‘normconst’
+gauss.cc: At global scope:
+gauss.cc:21: 警告：未使用的参数‘nDim’
+gauss.cc: In function ‘double evaluateUnnormalizedGauss2(int, double, double)’:
+gauss.cc:43: 警告：未使用的变量‘normconst’
+gauss.cc: At global scope:
+gauss.cc:38: 警告：未使用的参数‘nDim’
+gauss.cc: In function ‘double evaluateGauss(int, double, std::vector<double, std::allocator<double> >)’:
+gauss.cc:78: 警告：未使用的变量‘dist’
+polcoe.cc: In function ‘float* fvector(long int, long int)’:
+polcoe.cc:22: 警告：不建议使用从字符串常量到‘char*’的转换
+polcoe.cc: At global scope:
+polcoe.cc:26: 警告：未使用的参数‘nh’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from /root/code/include/dogscalespace.hh:21,
+                 from edgesift.cc:25:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+edgesift.cc: In function ‘void applyEdgeScaleSpace(OpGrayImage, int, int, float, bool, float, float, float, float, float, int, float, float, bool, PointVector&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&)’:
+edgesift.cc:160: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc:206: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc: In function ‘void computeDominantAngles(OpGrayImage, OpGrayImage, InterestPoint, int, std::vector<float, std::allocator<float> >&)’:
+edgesift.cc:320: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc:326: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc:335: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc:357: 警告：未使用的变量‘dValue’
+edgesift.cc: In function ‘void createEdgeFeatures(PointVector&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<FeatureVector, std::allocator<FeatureVector> >&, std::vector<FeatureVector, std::allocator<FeatureVector> >&)’:
+edgesift.cc:388: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc:388: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc: At global scope:
+edgesift.cc:373: 警告：未使用的参数‘vPoints’
+edgesift.cc: In function ‘void applyEdgeScaleSpace(OpGrayImage, int, int, float, int, bool, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<float, std::allocator<float> >&, PointVector&)’:
+edgesift.cc:1244: 警告：在有符号和无符号整数表达式间比较
+edgesift.cc: In function ‘int getY(int, int)’:
+edgesift.cc:890: 警告：在有返回值的函数中，控制流程到达函数尾
+edgesift.cc: In function ‘int getX(int, int)’:
+edgesift.cc:868: 警告：在有返回值的函数中，控制流程到达函数尾
+edgesift.cc: In function ‘void applyEdgeScaleSpace(OpGrayImage, int, int, float, bool, float, float, float, float, float, int, float, float, bool, PointVector&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&)’:
+edgesift.cc:194: 警告：此函数中的‘ptEdge._InterestPoint::l2’在使用前可能未初始化
+edgesift.cc:194: 警告：此函数中的‘ptEdge._InterestPoint::l1’在使用前可能未初始化
+edgesift.cc:205: 警告：此函数中的‘ptEdge._InterestPoint::angle’在使用前可能未初始化
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from qtimgbrowser.hh:30,
+                 from qtclusterview.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+qtclusterview.cc: In member function ‘void QtClusterView::loadImageSets(std::vector<OpGrayImage, std::allocator<OpGrayImage> >, std::string, std::vector<OpGrayImage, std::allocator<OpGrayImage> >, std::vector<int, std::allocator<int> >)’:
+qtclusterview.cc:61: 警告：在有符号和无符号整数表达式间比较
+qtclusterview.cc:67: 警告：在有符号和无符号整数表达式间比较
+qtclusterview.cc: In member function ‘void QtClusterView::displayAssociatedImgs(int)’:
+qtclusterview.cc:98: 警告：在有符号和无符号整数表达式间比较
+qtclusterview.cc: In member function ‘void QtClusterView::displayImgsForBrowsing(std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, int, int)’:
+qtclusterview.cc:117: 警告：在有符号和无符号整数表达式间比较
+In file included from /usr/lib64/qt-3.3/include/qdragobject.h:50,
+                 from /usr/lib64/qt-3.3/include/qiconview.h:51,
+                 from qticonview.hh:29,
+                 from qticonview.cc:22:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+qticonview.cc: At global scope:
+qticonview.cc:42: 警告：未使用的参数‘pos’
+qticonview.cc: In member function ‘void QtIconView::loadImageSets(std::vector<QImage, std::allocator<QImage> >)’:
+qticonview.cc:89: 警告：在有符号和无符号整数表达式间比较
+qticonview.cc: In member function ‘void QtIconView::loadImageSets(std::vector<QImage, std::allocator<QImage> >, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)’:
+qticonview.cc:127: 警告：在有符号和无符号整数表达式间比较
+qticonview.cc: In member function ‘void QtIconView::loadImageSets(std::vector<QPixmap, std::allocator<QPixmap> >, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)’:
+qticonview.cc:165: 警告：在有符号和无符号整数表达式间比较
+qticonview.cc: In member function ‘void QtIconView::loadImageSets(std::vector<OpGrayImage, std::allocator<OpGrayImage> >, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)’:
+qticonview.cc:203: 警告：在有符号和无符号整数表达式间比较
+In file included from qtimgbrowser.hh:30,
+                 from qtimgbrowser.cc:30:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+qtimgbrowser.cc: In member function ‘void QtImgBrowser::display(int)’:
+qtimgbrowser.cc:184: 警告：在有符号和无符号整数表达式间比较
+In file included from qtresizeimg.cc:18:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+qtresizeimg.cc: In member function ‘void QtResizeImg::setScaledSize()’:
+qtresizeimg.cc:208: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /usr/lib64/qt-3.3/include/qdragobject.h:50,
+                 from /usr/lib64/qt-3.3/include/qiconview.h:51,
+                 from qtclusterview.hh:27,
+                 from moc_qtclusterview.cc:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /usr/lib64/qt-3.3/include/qdragobject.h:50,
+                 from /usr/lib64/qt-3.3/include/qiconview.h:51,
+                 from qticonview.hh:29,
+                 from moc_qticonview.cc:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from qtimgbrowser.hh:30,
+                 from moc_qtimgbrowser.cc:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from qtresizeimg.hh:24,
+                 from moc_qtresizeimg.cc:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from gausskernel.hh:5,
+                 from gaussfilterbank.hh:7,
+                 from gaussfilterbank.cc:2:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from gausskernel.hh:5,
+                 from gausskernel.cc:2:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from gausskernel.hh:5,
+                 from gaussfilterbank.hh:7,
+                 from orientationenergy.hh:6,
+                 from orientationenergy.cc:1:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+utils.cpp:112: 警告：未使用的参数‘sigma12’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from imageoperations.cpp:2:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from ./integralimage.h:5,
+                 from chamferimage.h:16,
+                 from chamferimage.cpp:13:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from chamfermatching.h:5,
+                 from chamfermatching.cpp:4:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from chamfermatching.h:13,
+                 from chamfermatching.cpp:4:
+Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+chamfermatching.cpp: At global scope:
+chamfermatching.cpp:182: 警告：未使用的参数‘imgEdges’
+chamfermatching.cpp: In member function ‘void ChamferMatching::setTemplates(const QStringList&)’:
+chamfermatching.cpp:479: 警告：格式‘%d’需要类型‘int’，但实参 2 的类型为‘size_t’
+chamfermatching.cpp: In member function ‘void ChamferMatching::setImages(const QStringList&)’:
+chamfermatching.cpp:499: 警告：格式‘%d’需要类型‘int’，但实参 2 的类型为‘size_t’
+chamfermatching.cpp: In member function ‘void ChamferMatching::setCodebook(std::vector<OpGrayImage, std::allocator<OpGrayImage> >, bool)’:
+chamfermatching.cpp:507: 警告：格式‘%d’需要类型‘int’，但实参 2 的类型为‘size_t’
+chamfermatching.cpp: In member function ‘void ChamferMatching::matchImages()’:
+chamfermatching.cpp:741: 警告：格式‘%d’需要类型‘int’，但实参 3 的类型为‘size_t’
+chamfermatching.cpp: In member function ‘std::vector<QImage, std::allocator<QImage> > ChamferMatching::drawResults(unsigned int)’:
+chamfermatching.cpp:1517: 警告：格式‘%d’需要类型‘int’，但实参 2 的类型为‘size_t’
+chamfermatching.cpp:1552: 警告：格式‘%d’需要类型‘int’，但实参 2 的类型为‘size_t’
+chamfermatching.cpp: In member function ‘std::vector<QPoint, std::allocator<QPoint> > ChamferMatching::getContourPointsOfCandidates(int, unsigned int)’:
+chamfermatching.cpp:1587: 警告：建议在‘==’的操作数的比较表达式前后加上括号
+In file included from integralimage.h:5,
+                 from integralimage.cpp:2:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/imageoperations.h:6,
+                 from featurecue.cc:27:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+featurecue.cc: At global scope:
+featurecue.cc:460: 警告：未使用的参数‘bVerbose’
+featurecue.cc:669: 警告：未使用的参数‘bVerbose’
+featurecue.cc:1795: 警告：未使用的参数‘bVerbose’
+In file included from featuregui.hh:26,
+                 from featuregui.cc:34:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+featuregui.cc: In constructor ‘FeatureGUI::FeatureGUI(QWidget*, const char*)’:
+featuregui.cc:85: 警告：未使用的变量‘labStepSize’
+featuregui.cc:203: 警告：未使用的变量‘labSigma1’
+featuregui.cc:205: 警告：未使用的变量‘labSigma2’
+featuregui.cc:207: 警告：未使用的变量‘labAlpha’
+featuregui.cc:209: 警告：未使用的变量‘labThreshHar’
+featuregui.cc:235: 警告：未使用的变量‘labOctaves’
+featuregui.cc:237: 警告：未使用的变量‘labLevPerOct’
+featuregui.cc:239: 警告：未使用的变量‘labScSigma0’
+featuregui.cc:241: 警告：未使用的变量‘labThreshEdog’
+featuregui.cc:265: 警告：未使用的变量‘lbThreshSURF’
+featuregui.cc:280: 警告：未使用的变量‘labMinFigurePixels’
+featuregui.cc:283: 警告：未使用的变量‘labFigureThresh’
+featuregui.cc:303: 警告：未使用的变量‘labPatchSize’
+featuregui.cc:305: 警告：未使用的变量‘labMinScale’
+featuregui.cc:307: 警告：未使用的变量‘labMaxScale’
+In file included from featuregui.hh:26,
+                 from moc_featuregui.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from codebook.cc:28:
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘eps’
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘max_iter’
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘bVerbose’
+In file included from codebook.cc:29:
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+In file included from codebook.cc:30:
+/root/code/include/clfastrnncagglo.hh:97: 警告：未使用的参数‘eps’
+/root/code/include/clfastrnncagglo.hh:97: 警告：未使用的参数‘max_iter’
+/root/code/include/clfastrnncagglo.hh:97: 警告：未使用的参数‘bVerbose’
+In file included from codebook.cc:31:
+/root/code/include/clfastrnncagglo2.hh:97: 警告：未使用的参数‘eps’
+/root/code/include/clfastrnncagglo2.hh:97: 警告：未使用的参数‘max_iter’
+/root/code/include/clfastrnncagglo2.hh:97: 警告：未使用的参数‘bVerbose’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from /root/code/include/chamfermatching.h:5,
+                 from codebook.cc:32:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from codebook.cc:32:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from codebook.hh:31,
+                 from codebook.cc:36:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+codebook.cc: In member function ‘void Codebook::remove1PatchClusters(std::vector<int, std::allocator<int> >&)’:
+codebook.cc:1508: 警告：未使用的变量‘nNumFeatures’
+codebook.cc: In member function ‘void Codebook::saveClusterImages(std::string)’:
+codebook.cc:2075: 警告：由于数据类型范围限制，比较结果永远为假
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from /root/code/include/chamfermatching.h:5,
+                 from codebook-matching.cc:23:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from codebook-matching.cc:23:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from codebook.hh:31,
+                 from codebook-matching.cc:25:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from clustergui.hh:24,
+                 from clustergui.cc:38:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+clustergui.cc: In constructor ‘ClusterGUI::ClusterGUI(QWidget*, const char*)’:
+clustergui.cc:127: 警告：未使用的变量‘labCluster’
+clustergui.cc:129: 警告：未使用的变量‘labEps’
+clustergui.cc:131: 警告：未使用的变量‘labMaxIter’
+clustergui.cc:156: 警告：未使用的变量‘labSim’
+clustergui.cc:158: 警告：未使用的变量‘labFeatFact’
+clustergui.cc:160: 警告：未使用的变量‘labNodeSize’
+clustergui.cc: At global scope:
+clustergui.cc:224: 警告：未使用的参数‘bVerbose’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from clusterparams.hh:29,
+                 from clusterparams.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from matchinggui.hh:24,
+                 from matchinggui.cc:38:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+matchinggui.cc: In constructor ‘MatchingGUI::MatchingGUI(QWidget*, const char*)’:
+matchinggui.cc:81: 警告：未使用的变量‘labSimFact’
+matchinggui.cc: At global scope:
+matchinggui.cc:97: 警告：未使用的参数‘bVerbose’
+In file included from matchinggui.hh:24,
+                 from matchingparams.hh:28,
+                 from matchingparams.cc:22:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from matchinginfo.hh:26,
+                 from matchinginfo.cc:23:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from clustergui.hh:24,
+                 from moc_clustergui.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from matchinggui.hh:24,
+                 from moc_matchinggui.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+votingspace.cc: In member function ‘void VotingSpace::applyMSME(const FeatureVector&, FeatureVector&, float&, bool, float, bool)’:
+votingspace.cc:1566: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from occurrences.hh:30,
+                 from occurrences.cc:24:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from segmentation.hh:26,
+                 from segmentation.cc:23:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from recogui.hh:24,
+                 from recogui.cc:36:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+recogui.cc: In constructor ‘RecoGUI::RecoGUI(QWidget*, const char*)’:
+recogui.cc:83: 警告：未使用的变量‘labSizeX’
+recogui.cc:85: 警告：未使用的变量‘labSizeY’
+recogui.cc:87: 警告：未使用的变量‘labSizeS’
+recogui.cc:89: 警告：未使用的变量‘labSizeR’
+recogui.cc:91: 警告：未使用的变量‘labSizeA’
+recogui.cc:147: 警告：未使用的变量‘labAdaptMin’
+recogui.cc:187: 警告：未使用的变量‘labScoreThS’
+recogui.cc:190: 警告：未使用的变量‘labObjWidth’
+recogui.cc:192: 警告：未使用的变量‘labObjHeight’
+recogui.cc:197: 警告：未使用的变量‘labScaleMin’
+recogui.cc:199: 警告：未使用的变量‘labScaleMax’
+recogui.cc:201: 警告：未使用的变量‘labMinWeight’
+recogui.cc:204: 警告：未使用的变量‘labMaxWeight’
+recogui.cc:271: 警告：未使用的变量‘labWeightPFig’
+recogui.cc:273: 警告：未使用的变量‘labPFigRef’
+recogui.cc:276: 警告：未使用的变量‘labAdaptMDLSc’
+recogui.cc:331: 警告：未使用的变量‘lbRotInv’
+recogui.cc:334: 警告：未使用的变量‘lbRecoverRot’
+recogui.cc:335: 警告：未使用的变量‘lbRotMin’
+recogui.cc:337: 警告：未使用的变量‘lbRotMax’
+recogui.cc:413: 警告：未使用的变量‘lbAspect’
+recogui.cc:414: 警告：未使用的变量‘lbAspMin’
+recogui.cc:416: 警告：未使用的变量‘lbAspMax’
+recogui.cc:462: 警告：未使用的变量‘lbGibbsC’
+recogui.cc: At global scope:
+recogui.cc:498: 警告：未使用的参数‘bVerbose’
+In file included from recogui.hh:24,
+                 from recoparams.hh:28,
+                 from recoparams.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from occurrences.hh:30,
+                 from ism.cc:68:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/matchinginfo.hh:26,
+                 from ism.hh:75,
+                 from ism.cc:69:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+ism.cc:736: 警告：未使用的参数‘vPoints’
+ism.cc:736: 警告：未使用的参数‘bExtendSearch’
+ism.cc:868: 警告：未使用的参数‘bExtendSearch’
+ism.cc:1305: 警告：未使用的参数‘vPoints’
+ism.cc:1383: 警告：未使用的参数‘vPoints’
+ism.cc:2546: 警告：未使用的参数‘dWeightPFig’
+ism.cc:2546: 警告：未使用的参数‘bAlwaysAdapt’
+In file included from recogui.hh:24,
+                 from moc_recogui.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+calibration.cc:390: 警告：未使用的参数‘t’
+rmdir: 删除 "/root/code/lib/i686/" 失败: 目录非空
+make: [uninstall_target] 错误 1 (忽略)
+rmdir: 删除 "/root/code/include/" 失败: 目录非空
+make: [uninstall_headers] 错误 1 (忽略)
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from detector.hh:27,
+                 from detector-fileio.cc:28:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/codebook.hh:31,
+                 from detector.hh:30,
+                 from detector-fileio.cc:28:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from detector.hh:43,
+                 from detector-fileio.cc:28:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/visualhistogram.hh:27,
+                 from detector.cc:36:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/codebook.hh:31,
+                 from detector.hh:30,
+                 from detector.cc:39:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from detector.hh:43,
+                 from detector.cc:39:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+detector.cc:295: 警告：未使用的参数‘bVerbose’
+detector.cc:968: 警告：未使用的参数‘bDisplayResults’
+detector.cc:1753: 警告：未使用的参数‘bDrawMaps’
+In file included from detectorgui.hh:29,
+                 from detectorgui.cc:40:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from detectorgui.hh:34,
+                 from detectorgui.cc:40:
+cuewidget.hh: At global scope:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+detectorgui.cc: In constructor ‘DetectorGUI::DetectorGUI(QWidget*, const char*)’:
+detectorgui.cc:70: 警告：未使用的变量‘labCateg’
+detectorgui.cc:73: 警告：未使用的变量‘labPose’
+detectorgui.cc:76: 警告：未使用的变量‘labArea’
+detectorgui.cc:79: 警告：未使用的变量‘labHeight’
+detectorgui.cc:85: 警告：未使用的变量‘labDist’
+detectorgui.cc: At global scope:
+detectorgui.cc:344: 警告：未使用的参数‘nCol’
+detectorgui.cc:344: 警告：未使用的参数‘button’
+detectorgui.cc:344: 警告：未使用的参数‘mousePos’
+In file included from detectorwidget.hh:24,
+                 from detectorwidget.cc:34:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from detectorgui.hh:34,
+                 from detectorwidget.hh:28,
+                 from detectorwidget.cc:34:
+cuewidget.hh: At global scope:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+detectorwidget.cc:84: 警告：未使用的参数‘e’
+In file included from cuewidget.hh:25,
+                 from cuewidget.cc:34:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from cuewidget.cc:34:
+cuewidget.hh: At global scope:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from detector.hh:27,
+                 from moc_detector.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/codebook.hh:31,
+                 from detector.hh:30,
+                 from moc_detector.cpp:11:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from detector.hh:43,
+                 from moc_detector.cpp:11:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from detectorgui.hh:29,
+                 from moc_detectorgui.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from detectorgui.hh:34,
+                 from moc_detectorgui.cpp:11:
+cuewidget.hh: At global scope:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from detectorwidget.hh:24,
+                 from moc_detectorwidget.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from detectorgui.hh:34,
+                 from detectorwidget.hh:28,
+                 from moc_detectorwidget.cpp:11:
+cuewidget.hh: At global scope:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from cuewidget.hh:25,
+                 from moc_cuewidget.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from moc_cuewidget.cpp:11:
+cuewidget.hh: At global scope:
+cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from clusterer-interface.cc:46:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from clusterer.hh:34,
+                 from clusterer-interface.cc:50:
+/root/code/include/clrnncagglo.hh: At global scope:
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+In file included from /root/code/include/codebook.hh:31,
+                 from clusterer.hh:38,
+                 from clusterer-interface.cc:50:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+clusterer-interface.cc: In constructor ‘Clusterer::Clusterer(QWidget*, const char*)’:
+clusterer-interface.cc:81: 警告：未使用的变量‘spacelabel’
+clusterer-interface.cc:348: 警告：未使用的变量‘selObjH’
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from clusterer.cc:36:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from clusterer.cc:50:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from clusterer.cc:58:
+/root/code/include/clpostagglo.hh: At global scope:
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘eps’
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘max_iter’
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘bVerbose’
+In file included from clusterer.cc:59:
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+In file included from /root/code/include/codebook.hh:31,
+                 from clusterer.hh:38,
+                 from clusterer.cc:61:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+clusterer.cc: In member function ‘void Clusterer::loadImage(QString)’:
+clusterer.cc:139: 警告：由于数据类型范围限制，比较结果永远为真
+clusterer.cc: In member function ‘void Clusterer::loadIDLImageSet(const QString&)’:
+clusterer.cc:406: 警告：由于数据类型范围限制，比较结果永远为真
+clusterer.cc: In member function ‘void Clusterer::drawInterestPointsEllipse()’:
+clusterer.cc:621: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from main.cc:20:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/codebook.hh:31,
+                 from main.cc:22:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from clusterer.hh:34,
+                 from main.cc:24:
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+nrutil.c: 在函数‘submatrix’中:
+nrutil.c:141: 警告：未使用的参数‘oldch’
+nrutil.c: 在函数‘free_vector’中:
+nrutil.c:218: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_ivector’中:
+nrutil.c:224: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_cvector’中:
+nrutil.c:230: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_lvector’中:
+nrutil.c:236: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_dvector’中:
+nrutil.c:242: 警告：未使用的参数‘nh’
+nrutil.c: 在函数‘free_matrix’中:
+nrutil.c:248: 警告：未使用的参数‘nrh’
+nrutil.c:248: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_dmatrix’中:
+nrutil.c:255: 警告：未使用的参数‘nrh’
+nrutil.c:255: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_imatrix’中:
+nrutil.c:262: 警告：未使用的参数‘nrh’
+nrutil.c:262: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_submatrix’中:
+nrutil.c:269: 警告：未使用的参数‘nrh’
+nrutil.c:269: 警告：未使用的参数‘ncl’
+nrutil.c:269: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_convert_matrix’中:
+nrutil.c:275: 警告：未使用的参数‘nrh’
+nrutil.c:275: 警告：未使用的参数‘ncl’
+nrutil.c:275: 警告：未使用的参数‘nch’
+nrutil.c: 在函数‘free_f3tensor’中:
+nrutil.c:281: 警告：未使用的参数‘nrh’
+nrutil.c:281: 警告：未使用的参数‘nch’
+nrutil.c:282: 警告：未使用的参数‘ndh’
+In file included from clusterer.hh:24,
+                 from moc_clusterer.cpp:11:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from clusterer.hh:34,
+                 from moc_clusterer.cpp:11:
+/root/code/include/clrnncagglo.hh: At global scope:
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+In file included from /root/code/include/codebook.hh:31,
+                 from clusterer.hh:38,
+                 from moc_clusterer.cpp:11:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+/usr/bin/ld: cannot find -lNNSearch
+collect2: ld 返回 1
+make: *** [clusterer] 错误 1
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from scmatcher-interface.cc:48:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from scmatcher.hh:61,
+                 from scmatcher-interface.cc:55:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/codebook.hh:31,
+                 from scmatcher.hh:63,
+                 from scmatcher-interface.cc:55:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+scmatcher.hh: In constructor ‘ISMReco::ISMReco(QWidget*, const char*)’:
+scmatcher.hh:493: 警告：‘ISMReco::m_bSilhouettesLoaded’将随后被初始化
+scmatcher.hh:433: 警告：‘std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > ISMReco::m_vvAllNeighbors’
+scmatcher-interface.cc:70: 警告：  当在这里初始化时
+scmatcher.hh:500: 警告：‘ISMReco::m_vActiveVotes’将随后被初始化
+scmatcher.hh:439: 警告：‘ISM ISMReco::m_ismReco’
+scmatcher-interface.cc:70: 警告：  当在这里初始化时
+scmatcher-interface.cc:94: 警告：未使用的变量‘spacelabel’
+scmatcher-interface.cc:189: 警告：未使用的变量‘guiHarris’
+scmatcher-interface.cc:338: 警告：未使用的变量‘labDummy6’
+scmatcher-interface.cc:518: 警告：未使用的变量‘labCateg’
+scmatcher-interface.cc:550: 警告：未使用的变量‘selObjH’
+scmatcher-interface.cc:615: 警告：未使用的变量‘labUIUCFrom’
+In file included from scmatcher.hh:46,
+                 from scmatcher-fileio.cc:33:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from scmatcher.hh:61,
+                 from scmatcher-fileio.cc:33:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/codebook.hh:31,
+                 from scmatcher.hh:63,
+                 from scmatcher-fileio.cc:33:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+scmatcher-fileio.cc: In member function ‘void ISMReco::saveSegmentationsMatlab(QString)’:
+scmatcher-fileio.cc:214: 错误：对‘ISM::drawSegmentation(std::vector<HoughVote, std::allocator<HoughVote> >&, PointVector&, FeatureCue&, OpGrayImage&, OpGrayImage&, OpGrayImage&, bool)’的调用没有匹配的函数
+/root/code/include/ism.hh:302: 附注：备选为： void ISM::drawSegmentation(const std::list<HoughVote, std::allocator<HoughVote> >&, const PointVector&, const FeatureCue&, OpGrayImage&, OpGrayImage&, OpGrayImage&, bool, float, bool)
+/root/code/include/ism.hh:311: 附注：         void ISM::drawSegmentation(const std::list<HoughVote, std::allocator<HoughVote> >&, const PointVector&, float, OpGrayImage&, OpGrayImage&, OpGrayImage&, bool, float, bool)
+/root/code/include/ism.hh:344: 附注：         Segmentation ISM::drawSegmentation(const std::list<HoughVote, std::allocator<HoughVote> >&, const PointVector&, const FeatureCue&, bool, float, bool)
+/root/code/include/ism.hh:350: 附注：         Segmentation ISM::drawSegmentation(const std::list<HoughVote, std::allocator<HoughVote> >&, const PointVector&, float, bool, float, bool)
+make: *** [scmatcher-fileio.o] 错误 1
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from mcmatcher-interface.cc:50:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from mcmatcher-interface.cc:55:
+/root/code/include/cuewidget.hh: At global scope:
+/root/code/include/cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/codebook.hh:31,
+                 from /root/code/include/detector.hh:30,
+                 from mcmatcher-interface.cc:56:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from /root/code/include/chamfermatching.h:13,
+                 from mcmatcher.hh:68,
+                 from mcmatcher-interface.cc:58:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+mcmatcher-interface.cc: In constructor ‘ISMReco::ISMReco(QWidget*, const char*)’:
+mcmatcher-interface.cc:858: 警告：未使用的变量‘labWeightPFig’
+mcmatcher-interface.cc:963: 警告：未使用的变量‘lbEmpty1’
+mcmatcher-interface.cc:964: 警告：未使用的变量‘selGPPre’
+mcmatcher-interface.cc:966: 警告：未使用的变量‘lbEmpty2’
+mcmatcher-interface.cc:967: 警告：未使用的变量‘lbImgSc’
+mcmatcher-interface.cc:970: 警告：未使用的变量‘lbWorldSc’
+mcmatcher-interface.cc: At global scope:
+mcmatcher-interface.cc:1105: 警告：未使用的参数‘bVerbose’
+mcmatcher-interface.cc:1134: 警告：未使用的参数‘bVerbose’
+In file included from mcmatcher.hh:48,
+                 from mcmatcher-fileio.cc:33:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from mcmatcher.hh:68,
+                 from mcmatcher-fileio.cc:33:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/codebook.hh:31,
+                 from mcmatcher.hh:70,
+                 from mcmatcher-fileio.cc:33:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from mcmatcher.hh:79,
+                 from mcmatcher-fileio.cc:33:
+/root/code/include/cuewidget.hh:53: 警告：未使用的参数‘text’
+mcmatcher-fileio.cc: In member function ‘void ISMReco::saveImages()’:
+mcmatcher-fileio.cc:57: 警告：由于数据类型范围限制，比较结果永远为真
+In file included from mcmatcher.hh:86,
+                 from mcmatcher-fileio.cc:33:
+matwriter.hh: At global scope:
+matwriter.hh: In instantiation of ‘void MATWriter::writeMatrix(int, unsigned int, unsigned int, const std::vector<T, std::allocator<_CharT> >&, int, int, int, int, const char*) [with T = float, Tn = float]’:
+mcmatcher-fileio.cc:302:   instantiated from here
+matwriter.hh:164: 警告：未使用的参数‘m’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from mcmatcher-verification.cc:31:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from mcmatcher-verification.cc:33:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/codebook.hh:31,
+                 from mcmatcher.hh:70,
+                 from mcmatcher-verification.cc:36:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from mcmatcher.hh:79,
+                 from mcmatcher-verification.cc:36:
+/root/code/include/cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from mcmatcher-experiments.cc:29:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from mcmatcher.hh:68,
+                 from mcmatcher-experiments.cc:32:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/codebook.hh:31,
+                 from mcmatcher.hh:70,
+                 from mcmatcher-experiments.cc:32:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from mcmatcher.hh:79,
+                 from mcmatcher-experiments.cc:32:
+/root/code/include/cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from mcmatcher.cc:60:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from mcmatcher.cc:73:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/detectorgui.hh:34,
+                 from mcmatcher.cc:76:
+/root/code/include/cuewidget.hh: At global scope:
+/root/code/include/cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/codebook.hh:31,
+                 from /root/code/include/detector.hh:30,
+                 from mcmatcher.cc:78:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+mcmatcher.cc: In member function ‘void ISMReco::loadImage(QString)’:
+mcmatcher.cc:135: 警告：由于数据类型范围限制，比较结果永远为真
+mcmatcher.cc: At global scope:
+mcmatcher.cc:295: 警告：未使用的参数‘dummy1’
+mcmatcher.cc:295: 警告：未使用的参数‘dummy2’
+mcmatcher.cc:459: 警告：未使用的参数‘nCol’
+mcmatcher.cc:459: 警告：未使用的参数‘button’
+mcmatcher.cc:459: 警告：未使用的参数‘mousePos’
+mcmatcher.cc:533: 警告：未使用的参数‘nCol’
+mcmatcher.cc:533: 警告：未使用的参数‘button’
+mcmatcher.cc:533: 警告：未使用的参数‘mousePos’
+mcmatcher.cc: In member function ‘void ISMReco::drawInterestPointsEllipse(float)’:
+mcmatcher.cc:842: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+mcmatcher.cc: In member function ‘void ISMReco::processTestImgBothDir(QString, int, std::vector<_Hypothesis, std::allocator<_Hypothesis> >&, std::vector<_Hypothesis, std::allocator<_Hypothesis> >&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, std::vector<OpGrayImage, std::allocator<OpGrayImage> >&, bool)’:
+mcmatcher.cc:1276: 警告：未使用的变量‘nOffX’
+mcmatcher.cc:1277: 警告：未使用的变量‘nOffY’
+mcmatcher.cc: At global scope:
+mcmatcher.cc:931: 警告：未使用的参数‘nImgNumber’
+mcmatcher.cc:931: 警告：未使用的参数‘bDisplayResults’
+mcmatcher.cc:2511: 警告：未使用的参数‘col’
+mcmatcher.cc: In member function ‘void ISMReco::performIDLTestSeries(QString, QString, QString, QString)’:
+mcmatcher.cc:2708: 警告：由于数据类型范围限制，比较结果永远为真
+mcmatcher.cc: In member function ‘void ISMReco::processImageSeries()’:
+mcmatcher.cc:2877: 警告：由于数据类型范围限制，比较结果永远为真
+mcmatcher.cc:2956: 警告：由于数据类型范围限制，比较结果永远为真
+mcmatcher.cc:2959: 警告：由于数据类型范围限制，比较结果永远为真
+In file included from /root/code/include/qtimgbrowser.hh:30,
+                 from main.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from /root/code/include/chamfermatching.h:13,
+                 from mcmatcher.hh:68,
+                 from main.cc:23:
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const Candidate&, const Candidate&)’:
+/root/code/include/Candidate.h:171: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+/root/code/include/Candidate.h: In member function ‘bool compareCandidates::operator()(const CombiCandidate&, const CombiCandidate&)’:
+/root/code/include/Candidate.h:191: 警告：建议显式地使用花括号以避免出现有歧义的‘else’
+In file included from /root/code/include/codebook.hh:31,
+                 from mcmatcher.hh:70,
+                 from main.cc:23:
+/root/code/include/container.hh: At global scope:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+In file included from mcmatcher.hh:79,
+                 from main.cc:23:
+/root/code/include/cuewidget.hh:53: 警告：未使用的参数‘text’
+In file included from /root/code/include/opgrayimage.hh:27,
+                 from veriparams.hh:29,
+                 from veriparams.cc:21:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from verigui.hh:24,
+                 from verigui.cc:32:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+verigui.cc: In constructor ‘VeriGUI::VeriGUI(QWidget*, const char*)’:
+verigui.cc:132: 错误：‘atof’在此作用域中尚未声明
+verigui.cc:120: 警告：未使用的变量‘labVerThS’
+verigui.cc:122: 警告：未使用的变量‘labVerMinPFig’
+verigui.cc:124: 警告：未使用的变量‘labVerWeightPFig’
+verigui.cc:154: 警告：未使用的变量‘labVerChAlpha’
+verigui.cc:156: 警告：未使用的变量‘labVerChThresh’
+verigui.cc:171: 警告：未使用的变量‘labVCTemplSc’
+verigui.cc: In member function ‘void VeriGUI::slotSetVerThreshSingle(const QString&)’:
+verigui.cc:200: 错误：‘atof’在此作用域中尚未声明
+verigui.cc: In member function ‘void VeriGUI::slotSetVerMinPFig(const QString&)’:
+verigui.cc:201: 错误：‘atof’在此作用域中尚未声明
+verigui.cc: In member function ‘void VeriGUI::slotSetVerWeightPFig(const QString&)’:
+verigui.cc:202: 错误：‘atof’在此作用域中尚未声明
+verigui.cc: In member function ‘void VeriGUI::slotSetVerChAlpha(const QString&)’:
+verigui.cc:204: 错误：‘atof’在此作用域中尚未声明
+verigui.cc: In member function ‘void VeriGUI::slotSetVerChThresh(const QString&)’:
+verigui.cc:205: 错误：‘atof’在此作用域中尚未声明
+verigui.cc: In member function ‘void VeriGUI::slotSetTemplateScale(const QString&)’:
+verigui.cc:207: 错误：‘atof’在此作用域中尚未声明
+make: *** [verigui.o] 错误 1
+In file included from /root/code/include/histogram.hh:32,
+                 from optimizer.cc:27:
+/usr/lib64/qt-3.3/include/qimage.h: In member function ‘bool QImageTextKeyLang::operator<(const QImageTextKeyLang&) const’:
+/usr/lib64/qt-3.3/include/qimage.h:61: 警告：建议在‘||’的操作数中出现的‘&&’前后加上括号
+In file included from optimizer.cc:29:
+/root/code/include/clpostagglo.hh: At global scope:
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘eps’
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘max_iter’
+/root/code/include/clpostagglo.hh:59: 警告：未使用的参数‘bVerbose’
+In file included from optimizer.hh:32,
+                 from optimizer.cc:31:
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘eps’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘max_iter’
+/root/code/include/clrnncagglo.hh:91: 警告：未使用的参数‘bVerbose’
+In file included from /root/code/include/codebook.hh:31,
+                 from optimizer.hh:34,
+                 from optimizer.cc:31:
+/root/code/include/container.hh:50: 警告：未使用的参数‘other’
+/usr/bin/ld: cannot find -lNNSearch
+collect2: ld 返回 1
+make: *** [optimizer] 错误 1

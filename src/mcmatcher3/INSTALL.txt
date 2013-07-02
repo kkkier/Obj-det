@@ -1,0 +1,86 @@
+                   Multi-Cue ISM Installation Instructions
+                   =======================================
+
+
+General Information
+===================
+
+This program, and all associated files or parts thereof, are made
+available exclusively for non-commercial research purposes. Any
+commercial use or resale of this software requires a license agreement
+with the author, the Multimodal Interactive Systems Group at TU
+Darmstadt, and the Computer Vision Laboratory at ETH Zurich. The code
+and binaries are under copyright protection. If you are interested in
+commercialization or more optimized versions, please contact the
+author under the following email address: leibe@vision.ee.ethz.ch.
+
+Copyright Bastian Leibe, 
+Multimodal Interactive Systems Group, TU Darmstadt, 2004-2005.
+Computer Vision Laboratory, ETH Zurich, 2006-2008.
+
+Parts of the package may contain code that is copyrighted by other
+parties. In particular, the subdirectory "code" contains interest
+point detectors and region descriptors made available by Krystian
+Mikolajczyk (kma@robots.ox.ac.uk) for non-commercial research
+use. Intellectual property for those parts has to be respected, as
+well.
+
+Disclaimer
+----------
+THIS CODE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Use at your own
+risk.  
+
+Further Information
+-------------------
+An explanation of the employed algorithms can be found in the
+following paper:
+                               
+Bastian Leibe, Ales Leonardis and Bernt Schiele,                    
+Robust Object Detection with Interleaved Categorization and Segmentation
+In International Journal of Computer Vision, Vol.77, No. 1-3, May 2008.
+
+Bastian Leibe, Krystian Mikolajczyk, and Bernt Schiele,
+Segmentation-Based Multi-Cue Integration for Object Detection
+In British Machine Vision Conference (BMVC'06), 2006.
+
+
+Installation Instructions
+=========================
+
+The provided archive contains all executables and libraries needed to
+run the ISM detector code. However, when first installing 
+
+1.) Create a symbolic link from "~/code" to the provided "code"
+subdirectory. This is required, so that the detector can find the
+feature extraction binaries.
+
+ln -s $PWD/code ~/code
+
+
+2.) Download and install the provided detector codebooks from our web
+page (http://www.vision.ee.ethz.ch/bleibe/code/). It is recommended
+that all detector codebooks are installed in the same directory
+"~/codebooks" (or some other similarly accessible directory). Since
+the detector files still contain some references to absolute paths, it
+is necessary to run the provided script "prepare.sh" after installing
+a new batch of codebooks. This automatically adapts the stored paths.
+
+cd ~/codebooks
+./prepare.sh
+
+
+3.) Now, the detector binaries can be executed by running the script
+"start.sh". 
+
+PLEASE SEE THE FILE "README.TXT" FOR DETAILED INSTRUCTIONS HOW TO USE
+THE DETECTOR BINARIES!!!
+
+
+
+If any of the above steps doesn't work or produces errors, please
+contact me by email (leibe@vision.ee.ethz.ch)
+
+Feb 29, 2008
+Bastian Leibe

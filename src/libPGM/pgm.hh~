@@ -1,0 +1,28 @@
+/*=====================================================
+ * This is a c++ wrapper of the pgm functions of the 
+ * vlfeat library. The wapper is used to encapsue the
+ * image data.
+ * Author: Zhang Yuren
+ * Date:   2013.6.14 Fri
+ * ===================================================*/
+#include "stdio.h"
+#include "pgm.h"
+
+class PGMImage
+{
+public:
+	PGMImage(float const *data, int width, int height, int max_value);
+	~PGMImage();
+	inline int width(){return Info.width};
+	inline int height(){return Info.height};
+	// Make sure that the buffer data should be large enough
+	void getRawData(float* data);
+	int getBufferSize();
+private:
+	void makeImageInfo(int width, int height, int max_value);
+private:
+	FILE filePGMImage;
+	VlPgmImage Info;
+};
+
+

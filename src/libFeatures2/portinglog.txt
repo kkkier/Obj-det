@@ -1,0 +1,5 @@
+Log for qt3to4 on 周日 2月 3 22:29:55 2013. Number of log entries: 3
+No changes made to file /root/code/src/libFeatures2/featurevector.cc
+No changes made to file /root/code/src/libFeatures2/featurevector.hh
+In file libFeatures.pro: Added entry QT +=  qt3support 
+

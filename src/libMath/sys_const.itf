@@ -1,0 +1,84 @@
+/*********************************************************************
+*
+*      Nom du module : sys_const.itf
+*
+*      Auteur        : Bernt Schiele (orignal form Patrick Reignier)
+*   
+*      Date          : 21 August 1994
+*      Version       : 0.1
+*      But           : 
+*
+*
+*      Modifications : auteur(s)     :
+*                      date          :
+*                      justification :
+*
+********************************************************************/
+#ifndef _SYS_CONST
+#define _SYS_CONST
+
+/*   Bool  */
+typedef int SysBool;
+#define SYS_FALSE 	0
+#define SYS_TRUE 	! SYS_FALSE	
+
+/*   Flag   */
+typedef SysBool SysFlag;
+#define SYS_FLAG_OFF SYS_FALSE
+#define SYS_FLAG_ON  SYS_TRUE
+
+/*   math-const   */
+#define SYS_PI		3.1415927
+#define SYS_DEG_RAD	(SYS_PI / 180.0)     /* conversion degre  - radian */
+#define SYS_RAD_DEG 	(180.0 / SYS_PI)     /* conversion radian - degre  */
+
+/*   exit of a program...   */
+#define SYS_EXIT_MESSAGE( a, m ) { printf(m); printf("\n"); exit(a); }
+
+#endif
+
+
+/************************************************************
+ *** the following lines are the old macros.itf 
+ ************************************************************/
+
+/*******************************************************************
+*
+*      Nom du module : macros.itf
+*
+*      Auteur        : Patrick Reignier
+* 
+*      Date          : 31 Juillet 1990
+*      Version       : 4.0
+*      But           : definition des macros utilisees dans tous
+*                      le programme
+*
+*
+*      Modifications : auteur(s)     :
+*                      date          :
+*                      justification :
+*
+********************************************************************/
+#ifndef _SYS_MACROS_itf
+
+#define _SYS_MACROS_itf
+
+#define SYS_FABS(x)     ((x > 0.0) ? x : - (x))
+#define SYS_ABS(x)      ((x > 0) ? x : - (x))
+
+#define SYS_MIN( x, y)  ((x) < (y) ? (x) : (y))
+#define SYS_MIN3(x, y, u )     (SYS_MIN( SYS_MIN(x,y), u ))
+#define SYS_MIN4(x, y, u, v)   (SYS_MIN( SYS_MIN(x,y) , SYS_MIN(u,v) ))
+#define SYS_MAX(x, y)   ((x) > (y) ? (x) : (y))
+#define SYS_MAX3(x, y, u )     (SYS_MAX( SYS_MAX(x,y), u ))
+#define SYS_MAX4(x, y, u, v)   (SYS_MAX( SYS_MAX(x,y) , SYS_MAX(u,v) ))
+
+/*  #define FSIGN(a)       (((a) > 0.0) ? 1.0 : (((a) < 0.0) ? -1.0 : 0.0)) */
+/*  #define SQUARE(x)       ((x) * (x)) */
+#define SYS_SQR(x)      ((x) * (x))
+/* #define ROUND(x)        ((x) > 0 ? ((int)((x) + 0.5)) : ((int) (x))) */
+
+
+#endif
+
+

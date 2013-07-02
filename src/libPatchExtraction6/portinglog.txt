@@ -1,0 +1,41 @@
+Log for qt3to4 on 周日 2月 3 21:20:02 2013. Number of log entries: 38
+No changes made to file /root/code/src/libPatchExtraction6/featurecue.cc
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 26 column 15: qvbox.h -> q3vbox.h
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 31 column 22: qbuttongroup.h -> q3buttongroup.h
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 52 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 52 column 47: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 65 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 65 column 48: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 66 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 66 column 48: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 67 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 67 column 48: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 68 column 15: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 68 column 48: QVBoxLayout -> Q3VBoxLayout
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 79 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 79 column 46: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 87 column 9: QHBox -> Q3HBox
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 87 column 41: QHBox -> Q3HBox
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 144 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 144 column 46: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 201 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 201 column 47: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 234 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 234 column 47: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 264 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 264 column 49: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 279 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 279 column 49: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 301 column 16: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 301 column 44: QButtonGroup -> Q3ButtonGroup
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 386 column 31: IO_WriteOnly -> QIODevice::WriteOnly
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 386 column 43: IO_Append -> QIODevice::Append
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 388 column 17: QTextStream -> Q3TextStream
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 427 column 30: IO_ReadOnly -> QIODevice::ReadOnly
+In file /root/code/src/libPatchExtraction6/featuregui.cc at line 428 column 15: QTextStream -> Q3TextStream
+In file /root/code/src/libPatchExtraction6/featuregui.cc: Added the following include directives:
+	#include <Q3TextStream> 	#include <Q3VBoxLayout> 
+No changes made to file /root/code/src/libPatchExtraction6/featurecue.hh
+No changes made to file /root/code/src/libPatchExtraction6/featuregui.hh
+In file libPatchExtraction6.pro: Added entry QT +=  qt3support 
+

@@ -1,0 +1,7 @@
+Log for qt3to4 on 周六 2月 2 17:30:56 2013. Number of log entries: 5
+In file /root/code/src/libRGBImage2/oprgbimage.cc at line 94 column 40: red -> Qt::red
+In file /root/code/src/libRGBImage2/oprgbimage.cc at line 95 column 33: green -> Qt::green
+In file /root/code/src/libRGBImage2/oprgbimage.cc at line 96 column 32: blue -> Qt::blue
+No changes made to file /root/code/src/libRGBImage2/oprgbimage.hh
+In file libRGBImage2.pro: Added entry QT +=  qt3support 
+

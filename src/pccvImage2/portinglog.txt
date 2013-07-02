@@ -1,0 +1,10 @@
+Log for qt3to4 on 周六 2月 2 21:24:55 2013. Number of log entries: 8
+No changes made to file /root/code/src/pccvImage2/hsiimage.cc
+In file /root/code/src/pccvImage2/rgbimage.cc at line 27 column 14: red -> Qt::red
+In file /root/code/src/pccvImage2/rgbimage.cc at line 28 column 18: green -> Qt::green
+In file /root/code/src/pccvImage2/rgbimage.cc at line 29 column 16: blue -> Qt::blue
+No changes made to file /root/code/src/pccvImage2/image.h
+No changes made to file /root/code/src/pccvImage2/hsiimage.h
+No changes made to file /root/code/src/pccvImage2/rgbimage.h
+In file libImage.pro: Added entry QT +=  qt3support 
+

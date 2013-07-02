@@ -1,0 +1,27 @@
+/************************************************************************
+*
+*       Modulename      : 
+*
+*       Author          : Bernt Schiele
+*
+*       Date            : 
+*       Version         : 
+*       Goal            : 
+*
+*       Modifications   : author(s)     : 
+*                         date          : 
+*                         justification : 
+*
+************************************************************************/
+#ifndef _matrix_itf
+#define _matrix_itf
+
+#define MATRIX_MAX   1000 /* max number of Matrix* stored */
+#define MATRIX_ADD   1
+#define MATRIX_DEL   0
+
+#endif
+
+
+/*  -----------------------  end of file  ----------------------- */
+

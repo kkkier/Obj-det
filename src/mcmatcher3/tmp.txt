@@ -1,0 +1,125 @@
+With reduced SQRT calls:
+===============================
+Testing the Matching run-times
+===============================
+  Testing the Linear Search:
+    #features: 17510
+    #clusters: 3094
+    #dims    : 36
+    Matching radius: 245.661
+    Squared  radius: 60349.4
+
+    Matching to 100% of the clusters...      7.15645s (system), 7s (user)
+      found 137145 matches.
+-------------------------------
+-------------------------------
+  Testing the Balltree Search (Trace):
+    #features: 17510
+    #clusters: 3094
+    #dims    : 36
+    #levels  : 10
+    Matching radius: 245.661
+    Approx.  radius: 245.661
+    Quantile : 1
+
+    Building up a balltree from the trace...
+    Building up a balltree from the trace...       0.17201s (system), 0s (user)
+    Finding all neighbors (exact)...          13.6929s (system), 14s (user)
+      found 137182 matches.
+      avg #nodes checked : 1682.08
+      avg #nodes visited : 1227.52
+      avg #points checked: 976.082
+
+    Verifying...  17510/17510 done.
+      #Correct : 137144
+      #Inserted: 38
+      #Missed  : 1
+-------------------------------
+  Testing the Balltree Search (Trace):
+    #features: 17510
+    #clusters: 3094
+    #dims    : 36
+    #levels  : 10
+    Matching radius: 245.661
+    Approx.  radius: 245.661
+    Quantile : 0.1
+
+    Building up a balltree from the trace...
+    Building up a balltree from the trace...      0.172012s (system), 0s (user)
+    Finding all neighbors (exact)...          7.60447s (system), 8s (user)
+      found 137028 matches.
+      avg #nodes checked : 1040.23
+      avg #nodes visited : 766.965
+      avg #points checked: 731.159
+
+    Verifying...  17510/17510 done.
+      #Correct : 136990
+      #Inserted: 38
+      #Missed  : 155
+-------------------------------
+  Testing the Balltree Search (Trace):
+    #features: 17510
+    #clusters: 3094
+    #dims    : 36
+    #levels  : 10
+    Matching radius: 245.661
+    Approx.  radius: 245.661
+    Quantile : 0.01
+
+    Building up a balltree from the trace...
+    Building up a balltree from the trace...       0.17601s (system), 1s (user)
+    Finding all neighbors (exact)...          6.80042s (system), 6s (user)
+      found 136480 matches.
+      avg #nodes checked : 913.298
+      avg #nodes visited : 696.963
+      avg #points checked: 690.044
+
+    Verifying...  17510/17510 done.
+      #Correct : 136442
+      #Inserted: 38
+      #Missed  : 703
+-------------------------------
+  Testing the Balltree Search (Trace):
+    #features: 17510
+    #clusters: 3094
+    #dims    : 36
+    #levels  : 10
+    Matching radius: 245.661
+    Approx.  radius: 245.661
+    Quantile : 0.001
+
+    Building up a balltree from the trace...
+    Building up a balltree from the trace...      0.172012s (system), 0s (user)
+    Finding all neighbors (exact)...          7.06044s (system), 7s (user)
+      found 136277 matches.
+      avg #nodes checked : 901.828
+      avg #nodes visited : 691.19
+      avg #points checked: 686.781
+
+    Verifying...  17510/17510 done.
+      #Correct : 136239
+      #Inserted: 38
+      #Missed  : 906
+-------------------------------
+  Testing the Balltree Search (Trace):
+    #features: 17510
+    #clusters: 3094
+    #dims    : 36
+    #levels  : 10
+    Matching radius: 245.661
+    Approx.  radius: 245.661
+    Quantile : 1e-04
+
+    Building up a balltree from the trace...
+    Building up a balltree from the trace...      0.172012s (system), 0s (user)
+    Finding all neighbors (exact)...           6.3804s (system), 7s (user)
+      found 136200 matches.
+      avg #nodes checked : 899.953
+      avg #nodes visited : 690.179
+      avg #points checked: 686.156
+
+    Verifying...  17510/17510 done.
+      #Correct : 136162
+      #Inserted: 38
+      #Missed  : 983
+-------------------------------

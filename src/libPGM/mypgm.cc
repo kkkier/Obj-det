@@ -1,0 +1,99 @@
+#include "mypgm.hh"
+#include <iostream>
+using namespace std;
+
+PGMImage::PGMImage(const char* filename)
+{
+	QImage image(filename);
+	initializeWithQImage(image);
+}
+
+
+PGMImage::PGMImage(const QImage& qimage)
+{
+	initializeWithQImage(qimage);
+}
+
+void PGMImage::initializeWithQImage(const QImage& image)
+{
+	makeImageInfo(image.width(), image.height(), 255);
+
+	vl_uint8* data = (vl_uint8*)malloc(image.height()*image.width()*sizeof(vl_uint8));
+	for(int i=0; i<image.width(); i++)
+		for(int j=0;j<image.height(); j++)
+			data[j*image.width() + i] = qGray(image.pixel(i,j));
+	vl_pgm_write(TMPFILE, (const vl_uint8*)data, image.width(), image.height());
+
+	getRawData_f(&f_data);
+	getRawData_uint8(&int_data);
+
+	free(data);
+}
+
+PGMImage::PGMImage(void const *data, int width, int height, int max_value)
+{
+	makeImageInfo(width, height, max_value);
+	vl_pgm_write(TMPFILE, (const vl_uint8*)data, width, height);
+	getRawData_f(&f_data);
+	getRawData_uint8(&int_data);
+}
+
+PGMImage::PGMImage(const PGMImage& other)
+{
+}
+
+PGMImage::~PGMImage()
+{
+	vl_free(f_data);
+	vl_free(int_data);
+	remove(TMPFILE);
+}
+
+void PGMImage::makeImageInfo(int width, int height, int max_value)
+{
+	Info.width = width;
+	Info.height = height;
+	Info.max_value = max_value;
+	Info.is_raw = 1;
+}
+
+void PGMImage::getRawData_uint8(vl_uint8** data)
+{
+	vl_pgm_read_new(TMPFILE, &Info,(vl_uint8**)data);
+}
+
+void PGMImage::getRawData_f(float** data)
+{
+	vl_pgm_read_new_f(TMPFILE, &Info, data);
+}
+
+int PGMImage::getBufferSize()
+{
+	return vl_pgm_get_npixels(&Info) * vl_pgm_get_bpp(&Info);
+}
+
+void PGMImage::saveImage(const char* filename)
+{
+	QImage image(width(), height(), QImage::Format_RGB32);
+	for(int i=0; i<width(); i++)
+		for(int j=0; j<height(); j++)
+			image.setPixel( i, j, qRgb(int_data[j*width() + i],int_data[j*width() + i],int_data[j*width() + i]));
+	image.save(filename);
+}
+/*
+void PGMImage::printFile()
+{
+	char buffer[1];
+	if(filePGMImage == NULL) perror("Error no file");
+	else
+	{
+		while(!feof(filePGMImage))
+		{
+			if(fgets(buffer, 1, filePGMImage) == NULL) break;
+			fputs(buffer, stdout);
+		}
+	
+	}
+	return;
+}
+*/
